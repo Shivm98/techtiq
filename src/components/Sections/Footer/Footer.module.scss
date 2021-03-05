@@ -1,0 +1,45 @@
+.Footer {
+	width: 100%;
+	padding: 5rem 0;
+	background-color: #051442;
+
+	.Container {
+		max-width: 120rem;
+		margin: 0 auto;
+
+		display: grid;
+		grid-template-columns: 300px 300px;
+		justify-content: space-between;
+		gap: 7rem;
+		align-content: center;
+		justify-items: end;
+
+		.LogoContainer {
+			width: 100%;
+
+			h6 {
+				margin-bottom: 2rem;
+				a {
+					font-size: 1.5rem;
+					font-weight: 700;
+					color: #337ab7;
+					font-family: Poppins;
+					text-decoration: none;
+				}
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.LinksContainer {
+			h6 {
+				font-size: 1.5rem;
+				font-weight: 700;
+				color: #6ec1e4;
+				font-family: Poppins;
+			}
+		}
+	}
+}

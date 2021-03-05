@@ -3,6 +3,7 @@ import Navigation from '../../components/Navigation/Navigation';
 import ClientSection from '../../components/Sections/ClientSection/ClientSection';
 import ContactSection from '../../components/Sections/ContactSection/ContactSection';
 import ExpertiseSection from '../../components/Sections/ExpertiseSection/ExpertiseSection';
+import Footer from '../../components/Sections/Footer/Footer';
 import HeroSection from '../../components/Sections/HeroSection/HeroSection';
 import IntroSection from '../../components/Sections/IntroSection/IntroSection';
 import MicrosoftPartnerSection from '../../components/Sections/MicrosoftPartnerSection/MicrosoftPartnerSection';
@@ -17,6 +18,7 @@ const Home = () => {
             <ClientSection/>
             <MicrosoftPartnerSection/>
             <ContactSection/>
+            <Footer/>
         </div>
     )
 }
