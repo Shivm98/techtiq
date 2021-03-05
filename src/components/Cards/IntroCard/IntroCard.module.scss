@@ -1,0 +1,40 @@
+.Card {
+	width: 25rem;
+	background-color: #fff;
+	color: #6a7c92;
+	font-size: 1.7rem;
+	padding: 3.7rem 1.5rem 2.5rem;
+	box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+
+	.ImgContainer {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2rem;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.Title {
+		font-size: 2.2rem;
+		font-family: Poppins;
+		margin: 0 auto;
+		line-height: 3.2rem;
+		color: #1e1666;
+		width: 90%;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.Description {
+		color: #6a7c92;
+		font-size: 1.5rem;
+		font-weight: 400;
+		line-height: 2.4rem;
+		text-align: center;
+	}
+}

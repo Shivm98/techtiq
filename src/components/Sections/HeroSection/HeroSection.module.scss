@@ -3,11 +3,11 @@
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 105vh;
 	color: #ffff;
 
 	.Container {
-		max-width: 1140px;
+		max-width: 114rem;
 		margin: 0 auto;
 
 		display: grid;
@@ -20,7 +20,7 @@
 		.HeroContent {
 			align-self: start;
 			margin-top: 4rem;
-			margin-left: 6rem;
+			margin-left: 2rem;
 
 			.HeadingSecondary {
 				margin-bottom: 2rem;
@@ -34,6 +34,7 @@
 				width: 100%;
 				word-spacing: 0.5rem;
 				font-size: 1.5rem;
+				letter-spacing: 1px;
 			}
 		}
 
