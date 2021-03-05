@@ -1,0 +1,25 @@
+.ClientSection {
+	padding: 5rem 0;
+	text-align: center;
+
+	.Heading {
+		margin-bottom: 6rem;
+		h3 {
+			color: #1e1666;
+			font-size: 2.8rem;
+			font-family: Poppins;
+			font-weight: 700;
+			line-height: 3.8rem;
+		}
+	}
+
+	.Container {
+		max-width: 100rem;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+
+		align-items: center;
+		justify-items: center;
+	}
+}

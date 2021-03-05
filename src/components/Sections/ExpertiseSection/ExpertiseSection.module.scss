@@ -1,0 +1,41 @@
+.ExpertiseSection {
+	padding: 5rem 0;
+	background-image: url('../../../assets//images/expertise-section-bg.png');
+	background-repeat: no-repeat;
+	background-position: 890px 181px;
+
+	.Container {
+		max-width: 111rem;
+		margin: 0 auto;
+
+		.Heading {
+			h3 {
+				font-size: 2.8rem;
+				font-family: Poppins;
+				color: #1e1666;
+				margin-bottom: 1.5rem;
+				text-align: center;
+			}
+
+			p {
+				color: #6a7c92;
+				font-size: 2.1rem;
+				margin-bottom: 4rem;
+				line-height: 3rem;
+				width: 100%;
+				text-align: justify;
+			}
+		}
+
+		.CardsContainer {
+			width: 95%;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			gap: 2rem;
+
+			justify-content: center;
+			align-content: center;
+		}
+	}
+}
