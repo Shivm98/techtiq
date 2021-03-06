@@ -5,8 +5,12 @@ import Styles from './NavItem.module.scss';
 
 const NavItem = (props) => {
     return (
-        <li className = {Styles.NavItem}>
+        <li 
+            className={Styles.NavItem} 
+            onMouseLeave={props.toggleShowNav}
+            onMouseEnter={props.toggleShowNav}>
             <NavLink 
+                className={Styles.Link}
                 to={props.link}
                 activeClassName={Styles.active}>
                     {props.children}
