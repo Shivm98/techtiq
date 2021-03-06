@@ -1,0 +1,46 @@
+.AlternateSection {
+	padding: 2rem 0;
+
+	.Container {
+		max-width: 111rem;
+		margin: 0 auto;
+
+		.Article {
+			display: flex;
+			align-items: center;
+			flex-flow: row;
+			margin-bottom: 4rem;
+
+			&:nth-child(even) {
+				flex-flow: row-reverse;
+			}
+
+			.ImgContainer {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				padding: 1rem;
+
+				img {
+					height: 30rem;
+				}
+			}
+
+			.Content {
+				flex: 1;
+
+				h2 {
+					font-size: 3rem;
+					font-family: Poppins;
+					font-weight: 700;
+					color: #1e1666;
+				}
+
+				p {
+					font-size: 1.7rem;
+					color: #6a7c92;
+				}
+			}
+		}
+	}
+}
