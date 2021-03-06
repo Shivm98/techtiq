@@ -1,0 +1,24 @@
+.ModelStep {
+	width: 100%;
+	margin-bottom: 3rem;
+
+	.Heading {
+		font-size: 2.5rem;
+		font-family: Poppins;
+		color: #1e1666;
+		margin-bottom: 2rem;
+
+		display: flex;
+		align-items: center;
+
+		span {
+			margin-left: 1rem;
+		}
+	}
+
+	.Desc {
+		font-size: 1.5rem;
+		color: #6a7c92;
+		margin: 0 0 2rem;
+	}
+}

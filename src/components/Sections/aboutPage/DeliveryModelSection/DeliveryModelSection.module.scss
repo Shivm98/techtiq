@@ -1,0 +1,38 @@
+.DeliveryModelSection {
+	padding: 2rem;
+
+	.Container {
+		max-width: 110rem;
+		margin: 0 auto;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 5rem;
+
+		.Title {
+			font-size: 3.5rem;
+			font-family: Poppins;
+			font-weight: 600;
+			line-height: 4.5rem;
+			letter-spacing: -0.3px;
+			color: #1e1666;
+			margin-bottom: 5rem;
+		}
+
+		.Card1 {
+			padding: 2rem;
+		}
+		.Card2,
+		.Card3 {
+			box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+			padding: 3rem;
+
+			.ImgContainer {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}
