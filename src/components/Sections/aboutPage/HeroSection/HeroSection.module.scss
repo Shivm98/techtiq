@@ -1,0 +1,46 @@
+.Hero {
+	background-image: url(../../../../assets/aboutpage/images/about-hero-bg.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	// height: 60vh;
+	color: #ffff;
+
+	.Container {
+		max-width: 110rem;
+		margin: 0 auto;
+
+		display: grid;
+		grid-template-columns: 50% 50%;
+
+		align-items: center;
+
+		padding: 2rem 0;
+
+		.HeroContent {
+			.HeadingSecondary {
+				margin-bottom: 4rem;
+				font-weight: 700;
+				font-style: normal;
+				font-size: 4rem;
+				letter-spacing: 1px;
+			}
+
+			p {
+				width: 100%;
+				word-spacing: 0.5rem;
+				font-size: 1.7rem;
+				line-height: 2.5rem;
+			}
+		}
+
+		.HeroImgContainer {
+			width: 90%;
+
+			.HeroImg {
+				width: 100%;
+				margin-top: -100%;
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Styles from './Footer.module.scss';
-import logoWhite from '../../../../assets/homepage/images/logo.png';
+import logoWhite from '../../../../assets/logo.png';
 
 const Footer = () => {
     return (

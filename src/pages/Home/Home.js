@@ -10,7 +10,7 @@ import MicrosoftPartnerSection from '../../components/Sections/homePage/Microsof
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Navigation/>
             <HeroSection/>
             <IntroSection/>
@@ -19,7 +19,7 @@ const Home = () => {
             <MicrosoftPartnerSection/>
             <ContactSection/>
             <Footer/>
-        </div>
+        </>
     )
 }
 

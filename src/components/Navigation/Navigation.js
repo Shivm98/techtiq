@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import NavItems from './NavItems/NavItems';
 import Styles from './Navigation.module.scss';
-import logoWhite from '../../assets/images/logo.png';
-import logoBlue from '../../assets/images/logo-blue.png';
+import logoWhite from '../../assets/logo.png';
+import logoBlue from '../../assets/logo-blue.png';
 
 const Navigation = () => {
     const [navFix, setNavFix] = useState(false);

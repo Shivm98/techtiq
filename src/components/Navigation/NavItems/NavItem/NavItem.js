@@ -12,6 +12,7 @@ const NavItem = (props) => {
             <NavLink 
                 className={Styles.Link}
                 to={props.link}
+                exact
                 activeClassName={Styles.active}>
                     {props.children}
             </NavLink>

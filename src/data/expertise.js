@@ -1,12 +1,12 @@
-import AboutAzure from '../assets/images/AboutAzure-expertise.svg';
-import Cloud from '../assets/images/Cloud-expertise.png';
-import MobileApplication from '../assets/images/MobileApplication-expertise.png';
-import IoTSolutions from '../assets/images/IoTSolutions-expertise.svg';
-import DevOps from '../assets/images/DevOps-expertise.svg';
-import GovernanceandControl from '../assets/images/GovernanceandControl-expertise.png';
-import Cybersecurity from '../assets/images/Cybersecurity.svg';
-import AIML from '../assets/images/AI&ML-expertise.svg';
-import HybridCloudSolutions from '../assets/images/HybridCloudSolutions-expertise.svg';
+import AboutAzure from '../assets/homepage/images/AboutAzure-expertise.svg';
+import Cloud from '../assets/homepage/images/Cloud-expertise.png';
+import MobileApplication from '../assets/homepage/images/MobileApplication-expertise.png';
+import IoTSolutions from '../assets/homepage/images/IoTSolutions-expertise.svg';
+import DevOps from '../assets/homepage/images/DevOps-expertise.svg';
+import GovernanceandControl from '../assets/homepage/images/GovernanceandControl-expertise.png';
+import Cybersecurity from '../assets/homepage/images/Cybersecurity.svg';
+import AIML from '../assets/homepage/images/AI&ML-expertise.svg';
+import HybridCloudSolutions from '../assets/homepage/images/HybridCloudSolutions-expertise.svg';
 
 const expertise = [
     {
