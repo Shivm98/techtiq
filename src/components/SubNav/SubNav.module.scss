@@ -3,9 +3,10 @@
 	width: max-content;
 	padding: 2rem 4rem 2rem 3rem;
 	border-radius: 5px;
-	transition: all 0.4s;
+	transition: opacity 0.4s;
 
 	opacity: 0;
+	visibility: hidden;
 	transform: scaleY(0.98);
 	position: absolute;
 	top: 4rem;
@@ -35,4 +36,5 @@
 .Active {
 	opacity: 1;
 	transform: scaleY(1);
+	visibility: visible;
 }
