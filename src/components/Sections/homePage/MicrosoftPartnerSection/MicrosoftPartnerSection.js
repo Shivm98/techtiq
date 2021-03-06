@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './MicrosoftPartnerSection.module.scss';
-import MicrosoftPartner from '../../../assets/images/microsoftPartnerImg.png'
+import MicrosoftPartner from '../../../../assets/homepage/images/microsoftPartnerImg.png'
 
 const MicrosoftPartnerSection = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './ClientSection.module.scss';
-import ClientData from '../../../data/clientData';
+import ClientData from '../../../../data/clientData';
 
 const ClientSection = () => {
     return (

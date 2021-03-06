@@ -1,5 +1,5 @@
 import React from 'react';
-import BtnPrimary from '../../Buttons/BtnPrimary/BtnPrimary';
+import BtnPrimary from '../../../Buttons/BtnPrimary/BtnPrimary';
 import Styles from './ContactSection.module.scss';
 
 const ContactSection = () => {

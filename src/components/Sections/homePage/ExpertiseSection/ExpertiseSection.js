@@ -1,7 +1,7 @@
 import React from 'react';
-import ExpertiseCard from '../../Cards/ExpertiseCard/ExpertiseCard';
+import ExpertiseCard from '../../../Cards/ExpertiseCard/ExpertiseCard';
 import Styles from './ExpertiseSection.module.scss';
-import ExpertiseData from '../../../data/expertise';
+import ExpertiseData from '../../../../data/expertise';
 
 const ExpertiseSection = () => {
     return (

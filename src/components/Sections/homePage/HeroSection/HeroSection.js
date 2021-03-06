@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './HeroSection.module.scss';
-import HeroImg from '../../../assets/images/hero_svg.svg';
+import HeroImg from '../../../../assets/homepage/images/hero_svg.svg';
 
 const HeroSection = () => {
     return (

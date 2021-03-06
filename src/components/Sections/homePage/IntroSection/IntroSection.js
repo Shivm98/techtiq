@@ -1,10 +1,10 @@
 import React from 'react';
-import IntroCard from '../../Cards/IntroCard/IntroCard';
+import IntroCard from '../../../Cards/IntroCard/IntroCard';
 import Styles from './IntroSection.module.scss';
 
-import AzureImg from '../../../assets/images/azure-icon-home.svg';
-import biImg from '../../../assets/images/bi.svg';
-import CustomSoftwareSolutionsImg from '../../../assets/images/custom-software-solution.svg';
+import AzureImg from '../../../../assets/homepage/images/azure-icon-home.svg';
+import biImg from '../../../../assets/homepage/images/bi.svg';
+import CustomSoftwareSolutionsImg from '../../../../assets/homepage/images/custom-software-solution.svg';
 
 const IntroSection = () => {
     return (
