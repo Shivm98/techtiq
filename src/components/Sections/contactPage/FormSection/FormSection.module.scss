@@ -1,0 +1,66 @@
+.FormSection {
+	padding: 4rem 0;
+
+	.Container {
+		max-width: 110rem;
+		margin: 0 auto;
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+
+		.Content {
+			width: 100%;
+			padding: 1rem 10rem 1rem 1rem;
+
+			.HeadingTertiary {
+				color: #1e1666;
+				font-size: 3.5rem;
+				font-weight: 700;
+				line-height: 4.5rem;
+				font-family: Poppins;
+			}
+
+			h5 {
+				margin: 4rem 0 7rem 0;
+				font-family: Poppins;
+				line-height: 3rem;
+				font-weight: 600;
+				font-style: normal;
+				color: #1e1666;
+				font-size: 2rem;
+			}
+
+			.Address,
+			.Contact,
+			.Email {
+				color: #6a7c92;
+				font-size: 1.5rem;
+				font-family: Poppins;
+				line-height: 3rem;
+				padding: 0 0 1rem 8.3rem;
+				margin-bottom: 2rem;
+
+				span {
+					display: block;
+				}
+			}
+
+			.Address {
+				background-image: url('../../../../assets/contactpage/images/contact-form-earth-icon.png');
+				background-repeat: no-repeat;
+				background-position: center left;
+			}
+			.Contact {
+				background-image: url('../../../../assets/contactpage/images/contact-form-contact-icon.png');
+				background-repeat: no-repeat;
+				background-position: center left;
+			}
+			.Email {
+				background-image: url('../../../../assets/contactpage/images/contact-form-plane-icon.png');
+				background-repeat: no-repeat;
+				background-position: center left;
+			}
+		}
+	}
+}
