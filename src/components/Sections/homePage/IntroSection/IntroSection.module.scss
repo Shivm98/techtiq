@@ -17,9 +17,13 @@
 		}
 
 		.Content {
-			padding: 2rem;
+			padding: 3rem;
 			text-align: justify;
 			margin-top: 18rem;
+
+			background-image: url('../../../../assets/homepage/home-triangle.png');
+			background-position: 430px -5px;
+			background-repeat: no-repeat;
 
 			h3 {
 				text-align: center;
