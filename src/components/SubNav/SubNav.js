@@ -10,7 +10,7 @@ const SubNav = (props) => {
             <ul>
                 {SubNavData.map(item => (
                     <li>
-                        <Link to={`${item}`}>
+                        <Link to={`${item}`.split(' ').join('')}>
                             {item}
                         </Link>
                     </li>
