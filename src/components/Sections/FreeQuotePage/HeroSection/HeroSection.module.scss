@@ -1,0 +1,42 @@
+.Hero {
+	background-image: url('../../../../assets/freequotepage/images/contact-hero-bg.png');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 58vh;
+	color: #ffff;
+	padding: 4rem 0 0;
+
+	.Container {
+		max-width: 110rem;
+		margin: 0 auto;
+
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+
+		align-items: center;
+
+		padding: 2rem 0;
+
+		.HeroContent {
+			grid-column: 1 / span 3;
+			.HeadingSecondary {
+				margin-bottom: 4rem;
+				font-weight: 700;
+				font-family: Poppins;
+				font-style: normal;
+				font-size: 4rem;
+				letter-spacing: 1px;
+			}
+		}
+
+		.HeroImgContainer {
+			grid-column: 4 / span 2;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
