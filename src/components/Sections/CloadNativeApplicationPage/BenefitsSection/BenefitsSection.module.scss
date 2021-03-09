@@ -1,0 +1,44 @@
+.BenefitsSection {
+	padding: 8rem 0;
+	margin-top: 4rem;
+
+	.Container {
+		max-width: 110rem;
+		margin: 0 auto;
+
+		h5 {
+			font-family: Poppins;
+			line-height: 3rem;
+			font-weight: 600;
+			font-style: normal;
+			color: #1e1666;
+			font-size: 2rem;
+			text-align: center;
+		}
+
+		.Underline {
+			display: block;
+			width: 5rem;
+			background-color: #f11d66;
+			height: 2px;
+			margin: 3rem auto;
+		}
+
+		h2 {
+			font-family: Poppins;
+			line-height: 4rem;
+			font-weight: 700;
+			font-style: normal;
+			color: #1e1666;
+			font-size: 3rem;
+			text-align: center;
+			margin-top: 10rem;
+			margin-bottom: 2rem;
+		}
+
+		.CardsContainer {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+		}
+	}
+}

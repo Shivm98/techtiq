@@ -1,0 +1,67 @@
+.ImplementationSection {
+	padding: 2rem 0 1rem;
+
+	.Title {
+		font-family: Poppins;
+		line-height: 4rem;
+		font-weight: 700;
+		font-style: normal;
+		color: #1e1666;
+		font-size: 3rem;
+		font-display: swap;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.Container {
+		max-width: 111rem;
+		margin: 0 auto;
+
+		.Article {
+			display: flex;
+			align-items: center;
+			flex-flow: row;
+			margin-bottom: 4rem;
+
+			&:nth-child(odd) {
+				flex-flow: row-reverse;
+			}
+
+			.ImgContainer {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				padding: 1rem;
+				height: 30rem;
+
+				img {
+					height: 100%;
+				}
+			}
+
+			.Content {
+				flex: 1;
+
+				h2 {
+					font-size: 3rem;
+					font-family: Poppins;
+					font-weight: 700;
+					color: #1e1666;
+				}
+
+				.Underline {
+					display: block;
+					width: 17%;
+					background-color: #f11d66;
+					height: 4px;
+					margin: 4rem 0;
+				}
+
+				p {
+					font-size: 1.7rem;
+					color: #6a7c92;
+				}
+			}
+		}
+	}
+}
